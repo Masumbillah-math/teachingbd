@@ -1,0 +1,370 @@
+*{margin:0; padding:0}
+body{
+	font-family:tahoma, sans-sarif, Arial ;
+	transition:all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
+	background: #f4f4f4;
+	font-size:14px;
+	background-image:url("images/indhhex.jpg");
+    background-size:100%;
+    background-repeat:repeat;
+	
+}
+#wrapper {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: left;
+}
+#bodywrap{
+	margin: 0px auto;
+    padding: 0px;
+    max-width:98%;
+    width: auto;
+}
+#bodywrap #bodycontent {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header-inner h1 a{
+	color:#ED3125;
+	text-decoration:none;
+	float:left;
+	overflow:hidden;
+}
+marquee mark{
+	font-size:2em;
+	color:#fff;
+	background:#000;
+	padding:5px;
+	float:right;
+}
+/*
+#top-navigation {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+}
+#top-navigation ul li{
+	float:left;
+	padding:15px;
+	list-style:none;
+}
+#top-navigation ul li a:hover{
+	font-size:2em;
+}
+#top-navigation ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+*/
+#menu_2 #bottom-navigation .menu ul li a{
+	text-decoration:none;
+	border-bottom:3px solid blue;
+	padding-bottom:8px;
+	padding-right:0px;
+	font:bold;
+}
+#menu_2 #bottom-navigation .menu ul li{
+	float:left;
+	padding-bottom:0px;
+	padding-left:0px;
+	list-style:none;
+}
+#menu_2 #bottom-navigation{
+	float: left;
+    margin: 0px;
+    padding-top:5px;
+    width: 100%;
+    position: relative;
+	border:2px solid  gray;
+	border-left:none;
+	border-right:none;
+	background-color:#7876B3;
+	}
+	/*
+#menu_2 #bottom-navigation ul li{
+	float:left;
+	padding-bottom:15px;
+	padding-left:15px;
+	list-style:none;
+	
+}
+#menu_2 #bottom-navigation ul li a{
+	text-decoration:none;
+	border-bottom:0px solid blue;
+	padding-bottom:10px;
+	padding-right:20px;
+	font:bold;
+	
+}
+#menu_2 #bottom-navigation ul li a:hover{ 
+background-color:#000;
+border-bottom:4px solid green;
+color:#fff;
+font:bold;
+padding-bottom:15px;
+padding-top:10px;
+padding-left:15px;
+
+}
+*/
+#header {
+    margin: 0px;
+    width: 100%;
+    padding: 0;
+    float: left;
+    position: relative;
+}
+#header .header-inner {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+.container-wrap {
+    float: left;
+    width: 100%;
+    margin: 0px 0px 0px;
+    padding: 0% 0%;
+	padding-top:2%;
+}
+.footer-bottom {
+    text-align:center;
+    width: 100%;
+    padding:25px;
+    background-color: #000000;
+	color:#fff;
+	overflow:hidden;
+}
+#content_1{
+	background-color:#fff;
+	width:35%;
+	float:left;
+	overflow:hidden;
+	margin-right:20px;
+}
+#content_2{
+	background-color:white;
+	width:35%;
+	margin-right:20px;
+	float:left;
+	overflow:hidden;
+	
+}
+#content_3{
+	background-color:#fff;
+	width:26%;
+	float:left;
+	overflow:hidden;
+	
+	
+}
+h2{
+	border:3px solid blue;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:5px;
+	text-align:center;
+	background-color:#9ec634;
+}
+img{
+	height:95px;
+	width:130px;
+	float:left;
+	padding:3px;
+	display:inline;
+	
+}
+.post{
+	height:110px;
+	padding:px;
+}
+.bx{
+	border-left:1px solid gray;
+	border-right:1px solid gray;
+
+}
+.stay{
+	margin-top:20px;
+	border-bottom:4px solid green;
+	padding:5px;
+}
+#content_3 img{
+	width:100%;
+	height:80px;
+	padding:10px;
+}
+#content_3 .me{
+	height:300px;
+	border-radius:150px;
+}
+.sidebar{
+	background-color:#726EAC;
+}
+.midcontent{
+	background-color:#94C931;
+}
+.catagories ol li{
+	list-style:circle;
+}
+.catagories ol li a:hover{
+	background-color:#726EAC;
+	color:#fff;
+	padding:2px;
+}
+.catagories ol li a{
+	text-decoration:none;
+	margin:3px;
+	
+}
+	
+/* -------Responsive-----------------*/
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  #content_1, #content_3, #content_2 {
+    width:100%;
+  }
+}
+/*---Responsive menue-1--------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0
+}
+body {
+	
+}
+li{list-style:none;}
+a { text-decoration:none;}
+.clear:before,
+.clear:after {
+	content:" ";
+	display: table
+}
+.clear:after { clear: both }
+.arrow {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle
+}
+.arrow.down {
+	border-top: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent
+}
+.arrow.up {
+	border-bottom: 4px solid;
+	border-right: 4px solid transparent;
+	border-left: 4px solid transparent
+}
+
+nav {
+	width: 100%;
+	background: #6CC49B
+}
+nav .navbar {
+	width: 95%;
+	max-width: 1000px;
+	margin:0 auto
+}
+nav a { color: #fff;
+text-decoration:none; }
+nav .logo {
+	float: left;
+	display: inline-block;
+	font-size: 30px;
+	font-weight: bold
+}
+nav .menu-toggle {
+	cursor: pointer;
+	display: none;
+	float: right;
+	padding: 12px;
+	margin: 10px 0;
+	background: #62b38d;
+	transition: background-color .5s
+}
+nav .icon-bar {
+	background-color: #fff;
+	display: block;
+	width: 22px;
+	height: 2px
+}
+nav .icon-bar + .icon-bar { margin-top: 4px }
+
+nav .menu ul { float: left }
+nav .menu li {
+	float: left;
+	list-style: none;
+	border-left: 0px solid #62b38d ;
+	padding:2px;
+}
+nav .menu li:first-child { border-left: 0 }
+nav .menu li a,
+nav .open-submenu {
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	display: block;
+	padding: 12px 10px 10px 50px;
+	transition: background-color .3s
+}
+nav .menu li a:hover,
+nav .open-submenu:hover ,
+nav .open-submenu.active,
+nav .menu-toggle.active  {
+	font-size:1.5em;
+}
+nav .menu ul ul {
+	z-index: 100;
+	display: none;
+	float: none;
+	position: absolute;
+	background: #FFBB22
+}
+nav .menu ul ul li {
+	float: none;
+	border: 0
+}
+nav .menu ul ul a:hover {
+	background: #62b38d;
+	transition: background-color .3s
+}
+
+@media(max-width:600px) {
+	nav .logo { padding-top: 8px }
+	nav .menu-toggle { display: inline-block }
+	nav .menu { display: none; clear: both }
+	nav .menu > ul { float: none }
+	nav .menu li { width: 100%; border: 0 }
+	nav .menu li:last-child { margin: 0 0 15px 0 }
+	nav .menu li a,
+	nav .open-submenu {
+		display: block;
+		background: #62b38d;
+		padding: 10px;
+		margin: 2px 0 0 0
+	}
+	nav .menu ul ul {
+		position: static;
+		background: transparent;
+		display:none
+	}
+	nav .menu ul ul a { background: transparent }
+	nav .menu ul ul a:hover { background: #FFBB22 }
+}
